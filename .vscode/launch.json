@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - newClass",
+            "request": "launch",
+            "mainClass": "newClass",
+            "projectName": "DSA_864ea791"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseStringWithSpecialCharacters",
+            "request": "launch",
+            "mainClass": "ReverseStringWithSpecialCharacters",
+            "projectName": "DSA_864ea791",
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test",
+            "request": "launch",
+            "mainClass": "test",
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
