@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DuplicatesInString",
+            "request": "launch",
+            "mainClass": "DuplicatesInString",
+            "projectName": "DSA_864ea791"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseString",
+            "request": "launch",
+            "mainClass": "ReverseString",
+            "projectName": "DSA_864ea791"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - newClass",
             "request": "launch",
             "mainClass": "newClass",

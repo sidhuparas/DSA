@@ -1,12 +1,22 @@
+import java.util.Scanner;
+
 public class ReverseString {
 
     public static void main(String[] args) {
-        String str = "Android OS";
-        reverse(str.toCharArray(), str.toCharArray().length);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter string: ");
+
+        String str = scanner.nextLine();
+        scanner.close();
+
+        reverseBySwapping(str.toCharArray());
+        reverseByTempArray(str.toCharArray());
     }
 
-    private static void reverse(char[] array, int size) {
+    private static void reverseBySwapping(char[] array) {
         char temp;
+
+        int size = array.length;
 
         for (int i=0; i< size/2; i++) {
             temp = array[i];
@@ -15,5 +25,19 @@ public class ReverseString {
         }
 
         System.out.println(array);
+    }
+
+    private static void reverseByTempArray(char[] array) {
+        int size = array.length;
+
+        char[] temp = new char[size];
+        int j = array.length;
+        //"Paras"
+        for (int i = 0; i < size; i++) {
+            temp[j - 1] = array[i];
+            j--;
+        }
+
+        System.out.println(temp);
     }
 }
