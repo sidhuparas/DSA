@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StringRotations",
+            "request": "launch",
+            "mainClass": "StringRotations",
+            "projectName": "DSA_864ea791"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DuplicatesInString",
             "request": "launch",
             "mainClass": "DuplicatesInString",
@@ -39,8 +46,8 @@
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "console": "internalConsole",
-            "internalConsoleOptions": "openOnSessionStart"
+            "console": "integratedTerminal"
+            //"internalConsoleOptions": "openOnSessionStart"
         },
         {
             "type": "java",

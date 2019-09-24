@@ -20,4 +20,5 @@ public class DuplicatesInString {
 
         scanner.close();
     }
+    
 }
